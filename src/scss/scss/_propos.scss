@@ -1,0 +1,14 @@
+.Valeurs {
+    p {
+
+        transition: color 0.8s ease-in-out;
+    }
+
+    &:hover {
+        p {
+            color: #AF96B0;
+            transition: color 0.8s ease-in-out;
+
+        }
+    }
+}

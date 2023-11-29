@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Josefin+Sans&family=Montserrat:ital,wght@1,900&display=swap');
+$px-font: 'Montserrat', sans-serif;
+
+// Theme Variable
+
+$px-theme: #AF96B0;
+$px-theme-rgb: 7, 136, 255;
+$px-white: #fff;
+$px-black: black;
+
+$px-text: #707476;
+$px-heading: #fff;
+
+// Breakpoints
+$px-media-xsm: 567px !default;
+$px-media-sm: 767px !default;
+$px-media-md: 1200px !default;
+$px-media-lg: 1400px !default;

@@ -1,0 +1,36 @@
+.iconn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icons {
+    color: #fff;
+    position: relative;
+    top: 15px;
+    left: -40px;
+}
+
+.service-1,
+.service-2,
+.service-3,
+.service-4,
+.service-5,
+.service-6 {
+
+    .icons,
+    p {
+        /* Default color */
+        transition: color 0.8s ease-in-out;
+        /* Adjust the duration as needed */
+    }
+
+    &:hover {
+
+        .icons,
+        p {
+            color: #AF96B0;
+        }
+    }
+}

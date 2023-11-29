@@ -1,0 +1,11 @@
+.actualites {
+    transition: color 0.8s ease-in-out;
+
+    &:hover {
+
+        color: #AF96B0;
+        transition: color 0.8s ease-in-out;
+
+
+    }
+}

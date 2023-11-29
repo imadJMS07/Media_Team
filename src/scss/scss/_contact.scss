@@ -1,0 +1,42 @@
+.formIN {
+    height: 57px !important;
+    width: 100%;
+    background-color: #14141b;
+    color: white;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    transition: .2;
+    z-index: 99;
+}
+
+.formIN:focus,
+textarea:focus {
+    border-bottom: 2px solid #AF96B0;
+    transition: .2;
+}
+
+textarea {
+    width: 100%;
+    padding-top: 20px !important;
+    padding-left: 20px;
+    background-color: #14141b;
+    color: white;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    z-index: 99;
+
+
+}
+
+
+.send_message {
+    height: 3px !important;
+    border: none;
+    padding: 15px 20px 40px 10px;
+    z-index: 99;
+
+}

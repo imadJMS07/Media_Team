@@ -1,0 +1,56 @@
+.px-btn-accueil {
+    padding: 13px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 2px solid var(--px-theme);
+    background-color: black;
+    color: #AF96B0;
+    text-decoration: none;
+    transition: ease all 0.35s;
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 2s ease-in-out;
+
+    &:hover {
+        background-color: #AF96B0;
+        color: var(--px-white);
+        border: 2px solid var(--px-white);
+        transition: 2s ease-in-out;
+
+    }
+
+}
+
+.px-btn-header {
+    padding: 10px 27px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 2px solid var(--px-theme);
+    background-color: black;
+    color: #AF96B0;
+    text-decoration: none;
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    top: 3px;
+
+    &:hover {
+        background-color: #AF96B0;
+        color: var(--px-white);
+        border: 2px solid var(--px-white);
+        transition: 0.8s ease-in-out;
+
+    }
+
+}
